@@ -60,7 +60,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   - MySQL
 
 ## 3. Lampiran
-  - [**Link Mockup:**](https://whimsical.com/website-developer-2024-B2GW7qAuxvV6ataQoEXKwH)
+  - [Link Mockup](https://whimsical.com/website-developer-2024-B2GW7qAuxvV6ataQoEXKwH)
   - Halaman Login
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/2b1b5d2c-6396-434e-9848-40ad04bf01da">
 
