@@ -38,3 +38,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 1. Pendahuluan
+**Tujuan Aplikasi:** Untuk mengikuti tes teknis web programmer di NEXA
+**Lingkup Aplikasi:**
+  - Halaman Login & Register
+  - Fungsional Login & Register
+  - Fungsional Logout
+  - Halaman List Transaksi
+  - Halaman Delete Transaksi
+  - Halaman Create Transaksi
+  - Fungsional Create Transaksi
+  - Halaman Detail Transaksi
+  - Fungsional Edit Transaksi
+
+## 2. Tools
+**UI:**
+  - [Next JS](https://nextjs.org/)
+  - [Library Material UI](https://mui.com/)
+
+**Database:**
+  - MySQL
+
+## 3. Lampiran
+  - [Link Mockup](https://whimsical.com/website-developer-2024-B2GW7qAuxvV6ataQoEXKwH)
+  - Halaman Login
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/2b1b5d2c-6396-434e-9848-40ad04bf01da">
+
+  - Halaman Register
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/179b41e1-386a-438a-a8d2-b935c194b4ec">
+
+  - Halaman List Transaksi
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/7b18468b-8a0d-4aae-8f51-5adb538e091a">
+
+  - Halaman Create Transaksi
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/83522dc0-4c83-40e9-9e2d-25f25e5e2402">
+
+  - Halaman Edit Transaksi
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/43222cab-3d8f-421c-b90f-9f4b859fe615">
+
+## 4. Issue
+- Tidak bisa menampilkan data transaksi menggunakan datatables serverside dengan Next JS. Akhirnya ditampilkan menggunakan table biasa.
