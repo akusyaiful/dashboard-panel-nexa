@@ -131,6 +131,7 @@ export default function DetailTransaction() {
           }}
         >
           <FormTransaction
+            editTransaction
             listCustomer={listCustomer}
             listBarang={listBarang}
             handleSubmitTransaction={(payload) =>

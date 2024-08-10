@@ -67,7 +67,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Login</title>
+        <title>Register</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -89,7 +89,7 @@ export default function Login() {
             alignItems: "center",
             gap: "24px",
             width: "100%",
-            maxWidth: "450px",
+            maxWidth: "300px",
           }}
         >
           <img src="./logo-nexa.png" style={{ width: "40%" }} />
@@ -190,8 +190,9 @@ export default function Login() {
                 color: "#1a52d9",
                 fontWeight: 500,
                 textDecoration: "underline",
+                cursor: "pointer",
               }}
-              onClick={() => router.push("/register")}
+              onClick={() => router.push("/login")}
             >
               Sign in
             </span>

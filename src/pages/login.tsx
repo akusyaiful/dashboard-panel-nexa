@@ -162,6 +162,7 @@ export default function Login() {
                 color: "#1a52d9",
                 fontWeight: 500,
                 textDecoration: "underline",
+                cursor: "pointer",
               }}
               onClick={() => router.push("/register")}
             >

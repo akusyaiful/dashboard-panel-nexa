@@ -49,6 +49,7 @@ interface FormTransactionProps {
     alamat: string;
     phone: number;
   }[];
+  editTransaction?: boolean;
   listBarang: ItemDto[];
   detailTransaction?: DetailTransactionDto[];
   handleSubmitTransaction: (payload: PayloadAddTransaction) => void;
@@ -63,6 +64,7 @@ export default function FormTransaction(props: FormTransactionProps) {
     listCustomer,
     listBarang,
     detailTransaction,
+    editTransaction,
     handleSubmitTransaction,
     handleAddCustomerAndTransaction,
   } = props;
@@ -427,7 +429,7 @@ export default function FormTransaction(props: FormTransactionProps) {
               disableElevation
               onClick={handleSubmitForm}
             >
-              Add Transaction
+              {editTransaction ? "Edit Transaction" : "Create Transaction"}
             </StyledButton>
           </Grid>
         </Grid>
