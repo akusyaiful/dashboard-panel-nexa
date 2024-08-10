@@ -56,6 +56,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 **UI:**
   - [Next JS](https://nextjs.org/)
   - [Library Material UI](https://mui.com/)
+
 **Database:**
   - MySQL
 
